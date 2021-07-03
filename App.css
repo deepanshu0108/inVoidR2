@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  height: 400px;
+  padding: 5%;
+  width: 100%;
+}
+
+h1{
+  color: white;
+}
+
+image{
+  height: 200px;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input{
+  background-color: lightgreen;
+  margin-bottom: 10px;
+}
+
+.button{
+  height: 400px;
+  width: 100px;
+  margin-left: 37.5%;
+  margin-right: 42.5%;
+  margin-top: 1%;
+}
+
+body{
+height: 40px;
+width: 90%;
+background-image: url(https://www.wiproconsumerlighting.com/sites/default/files/detailimages/A-guide-to-lighting-up-your-stairway_10.jpg);
+}
